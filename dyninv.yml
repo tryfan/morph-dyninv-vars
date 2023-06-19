@@ -1,4 +1,4 @@
-plugin: morpheus_inventory
+plugin: morpheus.core.morpheus_inventory
 groups:
   - name: ui
     searchtype: app
