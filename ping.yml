@@ -12,3 +12,7 @@
   tasks:
     - debug: msg="all task"
     - ping:
+
+- hosts: localhost
+  tasks:
+    - debug: msg="morph_appname is {{ morph_appname }}"
