@@ -1,0 +1,12 @@
+plugin: morpheus_inventory
+groups:
+  - name: ui
+    searchtype: app
+    searchstring:
+      appname: "{{ morph_appname }}"
+      apptier: UI
+  - name: db
+    searchtype: app
+    searchstring:
+      appname: "{{ morph_appname }}"
+      apptier: Database

@@ -1,0 +1,14 @@
+- hosts: ui
+  tasks:
+    - debug: msg="ui task"
+    - ping:
+
+- hosts: db
+  tasks:
+    - debug: msg="db task"
+    - ping:
+
+- hosts: all
+  tasks:
+    - debug: msg="all task"
+    - ping:
